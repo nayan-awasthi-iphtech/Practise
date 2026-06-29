@@ -1,0 +1,19 @@
+{
+  "": {
+    "swift-dependencies": "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\x86_64-unknown-windows-msvc\\debug\\Practise_SwiftPackageDiscoveredTests.build\\primary.swiftdeps"
+  },
+  "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\x86_64-unknown-windows-msvc\\debug\\Practise_SwiftPackageDiscoveredTests.derived\\Practise_SwiftTests.swift": {
+    "dependencies": "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\x86_64-unknown-windows-msvc\\debug\\Practise_SwiftPackageDiscoveredTests.build\\Practise_SwiftTests.d",
+    "object": "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\x86_64-unknown-windows-msvc\\debug\\Practise_SwiftPackageDiscoveredTests.build\\Practise_SwiftTests.swift.o",
+    "swiftmodule": "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\x86_64-unknown-windows-msvc\\debug\\Practise_SwiftPackageDiscoveredTests.build\\Practise_SwiftTests~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\x86_64-unknown-windows-msvc\\debug\\Practise_SwiftPackageDiscoveredTests.build\\Practise_SwiftTests.swiftdeps",
+    "diagnostics": "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\x86_64-unknown-windows-msvc\\debug\\Practise_SwiftPackageDiscoveredTests.build\\Practise_SwiftTests.dia"
+  },
+  "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\x86_64-unknown-windows-msvc\\debug\\Practise_SwiftPackageDiscoveredTests.derived\\all-discovered-tests.swift": {
+    "dependencies": "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\x86_64-unknown-windows-msvc\\debug\\Practise_SwiftPackageDiscoveredTests.build\\all-discovered-tests.d",
+    "object": "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\x86_64-unknown-windows-msvc\\debug\\Practise_SwiftPackageDiscoveredTests.build\\all-discovered-tests.swift.o",
+    "swiftmodule": "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\x86_64-unknown-windows-msvc\\debug\\Practise_SwiftPackageDiscoveredTests.build\\all-discovered-tests~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\x86_64-unknown-windows-msvc\\debug\\Practise_SwiftPackageDiscoveredTests.build\\all-discovered-tests.swiftdeps",
+    "diagnostics": "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\x86_64-unknown-windows-msvc\\debug\\Practise_SwiftPackageDiscoveredTests.build\\all-discovered-tests.dia"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Practise_Swift.build\\primary.swiftdeps"
+  },
+  "C:\\Users\\HP\\Videos\\Practise_Swift\\Sources\\Practise_Swift\\Practise_Swift.swift": {
+    "dependencies": "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Practise_Swift.build\\Practise_Swift.d",
+    "object": "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Practise_Swift.build\\Practise_Swift.swift.o",
+    "swiftmodule": "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Practise_Swift.build\\Practise_Swift~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Practise_Swift.build\\Practise_Swift.swiftdeps",
+    "diagnostics": "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Practise_Swift.build\\Practise_Swift.dia"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Practise_SwiftPackageTests.build\\primary.swiftdeps"
+  },
+  "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Practise_SwiftPackageTests.derived\\runner.swift": {
+    "dependencies": "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Practise_SwiftPackageTests.build\\runner.d",
+    "object": "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Practise_SwiftPackageTests.build\\runner.swift.o",
+    "swiftmodule": "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Practise_SwiftPackageTests.build\\runner~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Practise_SwiftPackageTests.build\\runner.swiftdeps",
+    "diagnostics": "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Practise_SwiftPackageTests.build\\runner.dia"
+  }
+}

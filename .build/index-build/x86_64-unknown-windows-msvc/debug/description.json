@@ -1,0 +1,833 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Practise_SwiftPackageTests.xctest",
+      "packagePath" : "C:\\Users\\HP\\Videos\\Practise_Swift",
+      "productName" : "Practise_SwiftPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+    "Practise_SwiftPackageDiscoveredTests"
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.Practise_Swift-x86_64-unknown-windows-msvc-debug.module" : {
+      "executable" : "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.3.2+Asserts\\usr\\bin\\swiftc.exe",
+      "fileList" : "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Practise_Swift.build\\sources",
+      "importPath" : "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\HP\\Videos\\Practise_Swift\\Sources\\Practise_Swift\\Practise_Swift.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\swift-version--1096AE1FFA413F05.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Practise_Swift.build\\sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "Practise_Swift",
+      "moduleOutputPath" : "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules\\Practise_Swift.swiftmodule",
+      "objects" : [
+        "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Practise_Swift.build\\Practise_Swift.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-windows-msvc",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-Onone",
+        "-enable-testing",
+        "-j12",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "Practise_Swift_main",
+        "-parse-as-library",
+        "-static",
+        "-swift-version",
+        "6",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-sdk",
+        "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.2\\Windows.platform\\Developer\\SDKs\\Windows.sdk\\",
+        "-libc",
+        "MD",
+        "-I",
+        "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.2\\Windows.platform\\Developer\\Library\\XCTest-6.3.2\\usr\\lib\\swift\\windows",
+        "-I",
+        "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.2\\Windows.platform\\Developer\\Library\\XCTest-6.3.2\\usr\\lib\\swift\\windows\\x86_64",
+        "-L",
+        "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.2\\Windows.platform\\Developer\\Library\\XCTest-6.3.2\\usr\\lib\\swift\\windows\\x86_64",
+        "-I",
+        "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.2\\Windows.platform\\Developer\\Library\\Testing-6.3.2\\usr\\lib\\swift\\windows",
+        "-L",
+        "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.2\\Windows.platform\\Developer\\Library\\Testing-6.3.2\\usr\\lib\\swift\\windows\\x86_64",
+        "-use-ld=lld",
+        "-g",
+        "-use-ld=lld",
+        "-Xcc",
+        "-D_MT",
+        "-Xcc",
+        "-D_DLL",
+        "-Xcc",
+        "-Xclang",
+        "-Xcc",
+        "--dependent-lib=msvcrt",
+        "-Xcc",
+        "-gdwarf",
+        "-package-name",
+        "practise_swift"
+      ],
+      "outputFileMapPath" : "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Practise_Swift.build\\output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules\\Practise_Swift.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "C:\\Users\\HP\\Videos\\Practise_Swift\\Sources\\Practise_Swift\\Practise_Swift.swift"
+      ],
+      "tempsPath" : "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Practise_Swift.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.Practise_SwiftPackageDiscoveredTests-x86_64-unknown-windows-msvc-debug.module" : {
+      "executable" : "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.3.2+Asserts\\usr\\bin\\swiftc.exe",
+      "fileList" : "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Practise_SwiftPackageDiscoveredTests.build\\sources",
+      "importPath" : "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Practise_SwiftPackageDiscoveredTests.derived\\Practise_SwiftTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Practise_SwiftPackageDiscoveredTests.derived\\all-discovered-tests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\swift-version--1096AE1FFA413F05.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules\\Practise_SwiftTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Practise_SwiftPackageDiscoveredTests.build\\sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "Practise_SwiftPackageDiscoveredTests",
+      "moduleOutputPath" : "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules\\Practise_SwiftPackageDiscoveredTests.swiftmodule",
+      "objects" : [
+        "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Practise_SwiftPackageDiscoveredTests.build\\Practise_SwiftTests.swift.o",
+        "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Practise_SwiftPackageDiscoveredTests.build\\all-discovered-tests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-windows-msvc",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j12",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-static",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Practise_SwiftPackageDiscoveredTests.build\\include\\Practise_SwiftPackageDiscoveredTests-Swift.h",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-sdk",
+        "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.2\\Windows.platform\\Developer\\SDKs\\Windows.sdk\\",
+        "-libc",
+        "MD",
+        "-I",
+        "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.2\\Windows.platform\\Developer\\Library\\XCTest-6.3.2\\usr\\lib\\swift\\windows",
+        "-I",
+        "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.2\\Windows.platform\\Developer\\Library\\XCTest-6.3.2\\usr\\lib\\swift\\windows\\x86_64",
+        "-L",
+        "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.2\\Windows.platform\\Developer\\Library\\XCTest-6.3.2\\usr\\lib\\swift\\windows\\x86_64",
+        "-I",
+        "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.2\\Windows.platform\\Developer\\Library\\Testing-6.3.2\\usr\\lib\\swift\\windows",
+        "-L",
+        "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.2\\Windows.platform\\Developer\\Library\\Testing-6.3.2\\usr\\lib\\swift\\windows\\x86_64",
+        "-use-ld=lld",
+        "-g",
+        "-use-ld=lld",
+        "-Xcc",
+        "-D_MT",
+        "-Xcc",
+        "-D_DLL",
+        "-Xcc",
+        "-Xclang",
+        "-Xcc",
+        "--dependent-lib=msvcrt",
+        "-Xcc",
+        "-gdwarf",
+        "-package-name",
+        "practise_swift"
+      ],
+      "outputFileMapPath" : "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Practise_SwiftPackageDiscoveredTests.build\\output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules\\Practise_SwiftPackageDiscoveredTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Practise_SwiftPackageDiscoveredTests.derived\\Practise_SwiftTests.swift",
+        "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Practise_SwiftPackageDiscoveredTests.derived\\all-discovered-tests.swift"
+      ],
+      "tempsPath" : "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Practise_SwiftPackageDiscoveredTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.Practise_SwiftPackageTests-x86_64-unknown-windows-msvc-debug.module" : {
+      "executable" : "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.3.2+Asserts\\usr\\bin\\swiftc.exe",
+      "fileList" : "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Practise_SwiftPackageTests.build\\sources",
+      "importPath" : "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Practise_SwiftPackageTests.derived\\runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\swift-version--1096AE1FFA413F05.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules\\Practise_SwiftTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules\\Practise_SwiftPackageDiscoveredTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Practise_SwiftPackageTests.build\\sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "Practise_SwiftPackageTests",
+      "moduleOutputPath" : "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules\\Practise_SwiftPackageTests.swiftmodule",
+      "objects" : [
+        "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Practise_SwiftPackageTests.build\\runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-windows-msvc",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j12",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-static",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Practise_SwiftPackageTests.build\\include\\Practise_SwiftPackageTests-Swift.h",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-sdk",
+        "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.2\\Windows.platform\\Developer\\SDKs\\Windows.sdk\\",
+        "-libc",
+        "MD",
+        "-I",
+        "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.2\\Windows.platform\\Developer\\Library\\XCTest-6.3.2\\usr\\lib\\swift\\windows",
+        "-I",
+        "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.2\\Windows.platform\\Developer\\Library\\XCTest-6.3.2\\usr\\lib\\swift\\windows\\x86_64",
+        "-L",
+        "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.2\\Windows.platform\\Developer\\Library\\XCTest-6.3.2\\usr\\lib\\swift\\windows\\x86_64",
+        "-I",
+        "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.2\\Windows.platform\\Developer\\Library\\Testing-6.3.2\\usr\\lib\\swift\\windows",
+        "-L",
+        "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.2\\Windows.platform\\Developer\\Library\\Testing-6.3.2\\usr\\lib\\swift\\windows\\x86_64",
+        "-use-ld=lld",
+        "-g",
+        "-use-ld=lld",
+        "-Xcc",
+        "-D_MT",
+        "-Xcc",
+        "-D_DLL",
+        "-Xcc",
+        "-Xclang",
+        "-Xcc",
+        "--dependent-lib=msvcrt",
+        "-Xcc",
+        "-gdwarf",
+        "-package-name",
+        "practise_swift"
+      ],
+      "outputFileMapPath" : "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Practise_SwiftPackageTests.build\\output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules\\Practise_SwiftPackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Practise_SwiftPackageTests.derived\\runner.swift"
+      ],
+      "tempsPath" : "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Practise_SwiftPackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.Practise_SwiftTests-x86_64-unknown-windows-msvc-debug.module" : {
+      "executable" : "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.3.2+Asserts\\usr\\bin\\swiftc.exe",
+      "fileList" : "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Practise_SwiftTests.build\\sources",
+      "importPath" : "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\HP\\Videos\\Practise_Swift\\Tests\\Practise_SwiftTests\\Practise_SwiftTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\swift-version--1096AE1FFA413F05.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules\\Practise_Swift.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Practise_SwiftTests.build\\sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "Practise_SwiftTests",
+      "moduleOutputPath" : "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules\\Practise_SwiftTests.swiftmodule",
+      "objects" : [
+        "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Practise_SwiftTests.build\\Practise_SwiftTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-windows-msvc",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j12",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-static",
+        "-swift-version",
+        "6",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-sdk",
+        "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.2\\Windows.platform\\Developer\\SDKs\\Windows.sdk\\",
+        "-libc",
+        "MD",
+        "-I",
+        "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.2\\Windows.platform\\Developer\\Library\\XCTest-6.3.2\\usr\\lib\\swift\\windows",
+        "-I",
+        "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.2\\Windows.platform\\Developer\\Library\\XCTest-6.3.2\\usr\\lib\\swift\\windows\\x86_64",
+        "-L",
+        "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.2\\Windows.platform\\Developer\\Library\\XCTest-6.3.2\\usr\\lib\\swift\\windows\\x86_64",
+        "-I",
+        "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.2\\Windows.platform\\Developer\\Library\\Testing-6.3.2\\usr\\lib\\swift\\windows",
+        "-L",
+        "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.2\\Windows.platform\\Developer\\Library\\Testing-6.3.2\\usr\\lib\\swift\\windows\\x86_64",
+        "-use-ld=lld",
+        "-g",
+        "-use-ld=lld",
+        "-Xcc",
+        "-D_MT",
+        "-Xcc",
+        "-D_DLL",
+        "-Xcc",
+        "-Xclang",
+        "-Xcc",
+        "--dependent-lib=msvcrt",
+        "-Xcc",
+        "-gdwarf",
+        "-package-name",
+        "practise_swift"
+      ],
+      "outputFileMapPath" : "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Practise_SwiftTests.build\\output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules\\Practise_SwiftTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "C:\\Users\\HP\\Videos\\Practise_Swift\\Tests\\Practise_SwiftTests\\Practise_SwiftTests.swift"
+      ],
+      "tempsPath" : "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Practise_SwiftTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "Practise_Swift" : [
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.3.2+Asserts\\usr\\bin\\swiftc.exe",
+      "-module-name",
+      "Practise_Swift",
+      "-package-name",
+      "practise_swift",
+      "-c",
+      "C:\\Users\\HP\\Videos\\Practise_Swift\\Sources\\Practise_Swift\\Practise_Swift.swift",
+      "-I",
+      "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules",
+      "-target",
+      "x86_64-unknown-windows-msvc",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-Onone",
+      "-enable-testing",
+      "-j12",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "Practise_Swift_main",
+      "-parse-as-library",
+      "-static",
+      "-swift-version",
+      "6",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-sdk",
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.2\\Windows.platform\\Developer\\SDKs\\Windows.sdk\\",
+      "-libc",
+      "MD",
+      "-I",
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.2\\Windows.platform\\Developer\\Library\\XCTest-6.3.2\\usr\\lib\\swift\\windows",
+      "-I",
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.2\\Windows.platform\\Developer\\Library\\XCTest-6.3.2\\usr\\lib\\swift\\windows\\x86_64",
+      "-L",
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.2\\Windows.platform\\Developer\\Library\\XCTest-6.3.2\\usr\\lib\\swift\\windows\\x86_64",
+      "-I",
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.2\\Windows.platform\\Developer\\Library\\Testing-6.3.2\\usr\\lib\\swift\\windows",
+      "-L",
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.2\\Windows.platform\\Developer\\Library\\Testing-6.3.2\\usr\\lib\\swift\\windows\\x86_64",
+      "-use-ld=lld",
+      "-g",
+      "-use-ld=lld",
+      "-Xcc",
+      "-D_MT",
+      "-Xcc",
+      "-D_DLL",
+      "-Xcc",
+      "-Xclang",
+      "-Xcc",
+      "--dependent-lib=msvcrt",
+      "-Xcc",
+      "-gdwarf",
+      "-package-name",
+      "practise_swift",
+      "-driver-use-frontend-path",
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.3.2+Asserts\\usr\\bin\\swiftc.exe"
+    ],
+    "Practise_SwiftPackageDiscoveredTests" : [
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.3.2+Asserts\\usr\\bin\\swiftc.exe",
+      "-module-name",
+      "Practise_SwiftPackageDiscoveredTests",
+      "-package-name",
+      "practise_swift",
+      "-c",
+      "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Practise_SwiftPackageDiscoveredTests.derived\\Practise_SwiftTests.swift",
+      "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Practise_SwiftPackageDiscoveredTests.derived\\all-discovered-tests.swift",
+      "-I",
+      "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules",
+      "-target",
+      "x86_64-unknown-windows-msvc",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j12",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-static",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Practise_SwiftPackageDiscoveredTests.build\\include\\Practise_SwiftPackageDiscoveredTests-Swift.h",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-sdk",
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.2\\Windows.platform\\Developer\\SDKs\\Windows.sdk\\",
+      "-libc",
+      "MD",
+      "-I",
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.2\\Windows.platform\\Developer\\Library\\XCTest-6.3.2\\usr\\lib\\swift\\windows",
+      "-I",
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.2\\Windows.platform\\Developer\\Library\\XCTest-6.3.2\\usr\\lib\\swift\\windows\\x86_64",
+      "-L",
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.2\\Windows.platform\\Developer\\Library\\XCTest-6.3.2\\usr\\lib\\swift\\windows\\x86_64",
+      "-I",
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.2\\Windows.platform\\Developer\\Library\\Testing-6.3.2\\usr\\lib\\swift\\windows",
+      "-L",
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.2\\Windows.platform\\Developer\\Library\\Testing-6.3.2\\usr\\lib\\swift\\windows\\x86_64",
+      "-use-ld=lld",
+      "-g",
+      "-use-ld=lld",
+      "-Xcc",
+      "-D_MT",
+      "-Xcc",
+      "-D_DLL",
+      "-Xcc",
+      "-Xclang",
+      "-Xcc",
+      "--dependent-lib=msvcrt",
+      "-Xcc",
+      "-gdwarf",
+      "-package-name",
+      "practise_swift",
+      "-driver-use-frontend-path",
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.3.2+Asserts\\usr\\bin\\swiftc.exe"
+    ],
+    "Practise_SwiftPackageTests" : [
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.3.2+Asserts\\usr\\bin\\swiftc.exe",
+      "-module-name",
+      "Practise_SwiftPackageTests",
+      "-package-name",
+      "practise_swift",
+      "-c",
+      "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Practise_SwiftPackageTests.derived\\runner.swift",
+      "-I",
+      "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules",
+      "-target",
+      "x86_64-unknown-windows-msvc",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j12",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-static",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Practise_SwiftPackageTests.build\\include\\Practise_SwiftPackageTests-Swift.h",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-sdk",
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.2\\Windows.platform\\Developer\\SDKs\\Windows.sdk\\",
+      "-libc",
+      "MD",
+      "-I",
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.2\\Windows.platform\\Developer\\Library\\XCTest-6.3.2\\usr\\lib\\swift\\windows",
+      "-I",
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.2\\Windows.platform\\Developer\\Library\\XCTest-6.3.2\\usr\\lib\\swift\\windows\\x86_64",
+      "-L",
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.2\\Windows.platform\\Developer\\Library\\XCTest-6.3.2\\usr\\lib\\swift\\windows\\x86_64",
+      "-I",
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.2\\Windows.platform\\Developer\\Library\\Testing-6.3.2\\usr\\lib\\swift\\windows",
+      "-L",
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.2\\Windows.platform\\Developer\\Library\\Testing-6.3.2\\usr\\lib\\swift\\windows\\x86_64",
+      "-use-ld=lld",
+      "-g",
+      "-use-ld=lld",
+      "-Xcc",
+      "-D_MT",
+      "-Xcc",
+      "-D_DLL",
+      "-Xcc",
+      "-Xclang",
+      "-Xcc",
+      "--dependent-lib=msvcrt",
+      "-Xcc",
+      "-gdwarf",
+      "-package-name",
+      "practise_swift",
+      "-driver-use-frontend-path",
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.3.2+Asserts\\usr\\bin\\swiftc.exe"
+    ],
+    "Practise_SwiftTests" : [
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.3.2+Asserts\\usr\\bin\\swiftc.exe",
+      "-module-name",
+      "Practise_SwiftTests",
+      "-package-name",
+      "practise_swift",
+      "-c",
+      "C:\\Users\\HP\\Videos\\Practise_Swift\\Tests\\Practise_SwiftTests\\Practise_SwiftTests.swift",
+      "-I",
+      "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules",
+      "-target",
+      "x86_64-unknown-windows-msvc",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j12",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-static",
+      "-swift-version",
+      "6",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-sdk",
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.2\\Windows.platform\\Developer\\SDKs\\Windows.sdk\\",
+      "-libc",
+      "MD",
+      "-I",
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.2\\Windows.platform\\Developer\\Library\\XCTest-6.3.2\\usr\\lib\\swift\\windows",
+      "-I",
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.2\\Windows.platform\\Developer\\Library\\XCTest-6.3.2\\usr\\lib\\swift\\windows\\x86_64",
+      "-L",
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.2\\Windows.platform\\Developer\\Library\\XCTest-6.3.2\\usr\\lib\\swift\\windows\\x86_64",
+      "-I",
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.2\\Windows.platform\\Developer\\Library\\Testing-6.3.2\\usr\\lib\\swift\\windows",
+      "-L",
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.2\\Windows.platform\\Developer\\Library\\Testing-6.3.2\\usr\\lib\\swift\\windows\\x86_64",
+      "-use-ld=lld",
+      "-g",
+      "-use-ld=lld",
+      "-Xcc",
+      "-D_MT",
+      "-Xcc",
+      "-D_DLL",
+      "-Xcc",
+      "-Xclang",
+      "-Xcc",
+      "--dependent-lib=msvcrt",
+      "-Xcc",
+      "-gdwarf",
+      "-package-name",
+      "practise_swift",
+      "-driver-use-frontend-path",
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.3.2+Asserts\\usr\\bin\\swiftc.exe"
+    ]
+  },
+  "targetDependencyMap" : {
+    "Practise_Swift" : [
+
+    ],
+    "Practise_SwiftPackageDiscoveredTests" : [
+      "Practise_SwiftTests",
+      "Practise_Swift"
+    ],
+    "Practise_SwiftPackageTests" : [
+      "Practise_SwiftPackageDiscoveredTests",
+      "Practise_SwiftTests",
+      "Practise_Swift"
+    ],
+    "Practise_SwiftTests" : [
+      "Practise_Swift"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Practise_Swift.build\\sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\HP\\Videos\\Practise_Swift\\Sources\\Practise_Swift\\Practise_Swift.swift"
+        }
+      ],
+      "outputFilePath" : "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Practise_Swift.build\\sources"
+    },
+    "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Practise_SwiftPackageDiscoveredTests.build\\sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Practise_SwiftPackageDiscoveredTests.derived\\Practise_SwiftTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Practise_SwiftPackageDiscoveredTests.derived\\all-discovered-tests.swift"
+        }
+      ],
+      "outputFilePath" : "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Practise_SwiftPackageDiscoveredTests.build\\sources"
+    },
+    "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Practise_SwiftPackageTests.build\\sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Practise_SwiftPackageTests.derived\\runner.swift"
+        }
+      ],
+      "outputFilePath" : "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Practise_SwiftPackageTests.build\\sources"
+    },
+    "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Practise_SwiftTests.build\\sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\HP\\Videos\\Practise_Swift\\Tests\\Practise_SwiftTests\\Practise_SwiftTests.swift"
+        }
+      ],
+      "outputFilePath" : "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Practise_SwiftTests.build\\sources"
+    },
+    "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\swift-version--1096AE1FFA413F05.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.3.2+Asserts\\usr\\bin\\swiftc.exe"
+        }
+      ],
+      "outputFilePath" : "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\swift-version--1096AE1FFA413F05.txt"
+    }
+  }
+}
