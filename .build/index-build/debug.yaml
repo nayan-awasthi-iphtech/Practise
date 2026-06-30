@@ -1,0 +1,47 @@
+client:
+  name: basic
+  file-system: device-agnostic
+tools: {}
+targets:
+  "PackageStructure": ["<PackageStructure>"]
+  "Practise_Swift-x86_64-unknown-windows-msvc-debug.module": ["<Practise_Swift-x86_64-unknown-windows-msvc-debug.module>"]
+  "main": ["<Practise_Swift-x86_64-unknown-windows-msvc-debug.module>"]
+  "test": ["<Practise_Swift-x86_64-unknown-windows-msvc-debug.module>"]
+default: "main"
+nodes:
+  "C:\\Users\\HP\\Videos\\Practise_Swift\\Sources\\Practise_Swift/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+commands:
+  "<Practise_Swift-x86_64-unknown-windows-msvc-debug.module>":
+    tool: phony
+    inputs: ["C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules\\Practise_Swift.swiftmodule"]
+    outputs: ["<Practise_Swift-x86_64-unknown-windows-msvc-debug.module>"]
+
+  "C.Practise_Swift-x86_64-unknown-windows-msvc-debug.module":
+    tool: shell
+    inputs: ["C:\\Users\\HP\\Videos\\Practise_Swift\\Sources\\Practise_Swift\\Basics.swift","C:\\Users\\HP\\Videos\\Practise_Swift\\Sources\\Practise_Swift\\Collection_Types.swift","C:\\Users\\HP\\Videos\\Practise_Swift\\Sources\\Practise_Swift\\Extensions.swift","C:\\Users\\HP\\Videos\\Practise_Swift\\Sources\\Practise_Swift\\Generics.swift","C:\\Users\\HP\\Videos\\Practise_Swift\\Sources\\Practise_Swift\\Operators.swift","C:\\Users\\HP\\Videos\\Practise_Swift\\Sources\\Practise_Swift\\OptionalChaining.swift","C:\\Users\\HP\\Videos\\Practise_Swift\\Sources\\Practise_Swift\\Protocols.swift","C:\\Users\\HP\\Videos\\Practise_Swift\\Sources\\Practise_Swift\\Strings_and_Character.swift","C:\\Users\\HP\\Videos\\Practise_Swift\\Sources\\Practise_Swift\\main.swift","C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\swift-version--1096AE1FFA413F05.txt","C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Practise_Swift.build\\sources"]
+    outputs: ["C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules\\Practise_Swift.swiftmodule"]
+    description: "Compiling Swift Module 'Practise_Swift' (9 sources)"
+    args: ["C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.3.2+Asserts\\usr\\bin\\swiftc.exe","-module-name","Practise_Swift","-emit-dependencies","-emit-module","-emit-module-path","C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules\\Practise_Swift.swiftmodule","-output-file-map","C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Practise_Swift.build\\output-file-map.json","-incremental","@C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Practise_Swift.build\\sources","-I","C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules","-target","x86_64-unknown-windows-msvc","-incremental","-enable-batch-mode","-serialize-diagnostics","-Onone","-enable-testing","-j12","-DSWIFT_PACKAGE","-DDEBUG","-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE","-module-cache-path","C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\ModuleCache","-parseable-output","-Xfrontend","-entry-point-function-name","-Xfrontend","Practise_Swift_main","-static","-swift-version","6","-Xfrontend","-experimental-lazy-typecheck","-Xfrontend","-experimental-skip-all-function-bodies","-Xfrontend","-experimental-allow-module-with-compiler-errors","-Xfrontend","-empty-abi-descriptor","-sdk","C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.2\\Windows.platform\\Developer\\SDKs\\Windows.sdk\\","-libc","MD","-I","C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.2\\Windows.platform\\Developer\\Library\\XCTest-6.3.2\\usr\\lib\\swift\\windows","-I","C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.2\\Windows.platform\\Developer\\Library\\XCTest-6.3.2\\usr\\lib\\swift\\windows\\x86_64","-L","C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.2\\Windows.platform\\Developer\\Library\\XCTest-6.3.2\\usr\\lib\\swift\\windows\\x86_64","-I","C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.2\\Windows.platform\\Developer\\Library\\Testing-6.3.2\\usr\\lib\\swift\\windows","-L","C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.2\\Windows.platform\\Developer\\Library\\Testing-6.3.2\\usr\\lib\\swift\\windows\\x86_64","-use-ld=lld","-g","-use-ld=lld","-Xcc","-D_MT","-Xcc","-D_DLL","-Xcc","-Xclang","-Xcc","--dependent-lib=msvcrt","-Xcc","-gdwarf","-package-name","practise_swift"]
+
+  "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Practise_Swift.build\\sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","C:\\Users\\HP\\Videos\\Practise_Swift\\Sources\\Practise_Swift\\Basics.swift","C:\\Users\\HP\\Videos\\Practise_Swift\\Sources\\Practise_Swift\\Collection_Types.swift","C:\\Users\\HP\\Videos\\Practise_Swift\\Sources\\Practise_Swift\\Extensions.swift","C:\\Users\\HP\\Videos\\Practise_Swift\\Sources\\Practise_Swift\\Generics.swift","C:\\Users\\HP\\Videos\\Practise_Swift\\Sources\\Practise_Swift\\Operators.swift","C:\\Users\\HP\\Videos\\Practise_Swift\\Sources\\Practise_Swift\\OptionalChaining.swift","C:\\Users\\HP\\Videos\\Practise_Swift\\Sources\\Practise_Swift\\Protocols.swift","C:\\Users\\HP\\Videos\\Practise_Swift\\Sources\\Practise_Swift\\Strings_and_Character.swift","C:\\Users\\HP\\Videos\\Practise_Swift\\Sources\\Practise_Swift\\main.swift"]
+    outputs: ["C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Practise_Swift.build\\sources"]
+    description: "Write auxiliary file C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Practise_Swift.build\\sources"
+
+  "C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\swift-version--1096AE1FFA413F05.txt":
+    tool: write-auxiliary-file
+    inputs: ["<swift-get-version>","C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.3.2+Asserts\\usr\\bin\\swiftc.exe"]
+    outputs: ["C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\swift-version--1096AE1FFA413F05.txt"]
+    always-out-of-date: "true"
+    description: "Write auxiliary file C:\\Users\\HP\\Videos\\Practise_Swift\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\swift-version--1096AE1FFA413F05.txt"
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["C:\\Users\\HP\\Videos\\Practise_Swift\\Sources\\Practise_Swift/","C:\\Users\\HP\\Videos\\Practise_Swift\\Package.swift","C:\\Users\\HP\\Videos\\Practise_Swift\\Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+

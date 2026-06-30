@@ -1,0 +1,5 @@
+runBasics()
+runCollectionTypes()
+runOperators()
+runStringsAndCharacter()
+
