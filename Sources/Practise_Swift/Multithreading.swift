@@ -190,4 +190,33 @@ sleep(1)  // we can delay the process to avoid Race Conditions
 bank.withdraw(amount: 80)
 
 
+// New pattern of using the mutlithreading using Actors, Tasks and MainActor
+
+actor BankAccount {
+    var balance = 500
+    
+    func deposit(amount: Int) {
+        balance += amount
+    }
+}
+
+@MainActor
+class DashboardViewModel {
+    var totalSavingsText = ""
+    
+    func refreshDisplay(with balance: Int) {
+        self.totalSavingsText = "Saved: $\(balance)"
+        print(totalSavingsText)
+    }
+}
+
+let account = BankAccount()
+let viewModel = DashboardViewModel()
+
+Task {
+    await account.deposit(amount: 150)
+    let currentBalance = await account.balance
+    
+    await viewModel.refreshDisplay(with: currentBalance)
+}
 
